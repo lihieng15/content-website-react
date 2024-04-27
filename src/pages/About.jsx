@@ -1,18 +1,70 @@
 import React from "react";
-
+import Banner from "../components/Banner";
+import Footer from "../components/Footer";
 const About = () => {
   return (
-    <div className="p-10">
-      About
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque,
-        magni rerum accusantium laudantium, asperiores illum dolorem earum non
-        aliquid optio officiis dignissimos ipsam quis fugit? Voluptatibus quo
-        fugiat, repellat mollitia quam rem harum soluta impedit cum ipsa
-        voluptates voluptatem odio corrupti error reiciendis quaerat velit
-        temporibus repudiandae unde ducimus ratione.
-      </p>
-    </div>
+    <>
+      <Banner />
+
+      <div className="w-auto ml-64 mr-64 h-auto mt-10 mb-10">
+        <h2 className="flex justify-center items-center rounded-2xl font-bold text-4xl bg-green-400 h-20 ">
+          About Us
+        </h2>
+        <div className="flex justify-center items-center m-auto mt-10 mb-10 w-96">
+          <img
+            className="rounded-2xl ml-20 mr-20"
+            src="./src/assets/Cutelogo.jpg"
+            alt="Logo"
+          />
+        </div>
+        <h3 className="text-3xl mb-10">
+          About southwest international school{" "}
+        </h3>
+        <div className="ml-32 mr-32 mb-5">
+          <p>
+            Khmer General Education at the primary grade level in Cambodia is
+            designed to provide students with a strong foundation in the Khmer
+            language and culture, as well as in the core academic subjects. The
+            curriculum is based on the Cambodian Ministry of Education, Youth
+            and Sport's curriculum framework and is taught in Khmer, the
+            official language of Cambodia.
+          </p>
+          <ul>
+            <li>
+              Khmer language and literature: This includes reading, writing,
+              speaking, and listening skills in Khmer. Kids will also learn
+              about Khmer grammar and vocabulary.
+            </li>
+            <li>
+              Mathematics: This includes basic math skills, such as counting,
+              addition, subtraction, multiplication, and division. Kids will
+              also learn about geometry and measurement.
+            </li>
+            <li>
+              Khmer language and literature: This includes reading, writing,
+              speaking, and listening skills in Khmer. Kids will also learn
+              about Khmer grammar and vocabulary.
+            </li>
+            <li>
+              Mathematics: This includes basic math skills, such as counting,
+              addition, subtraction, multiplication, and division. Kids will
+              also learn about geometry and measurement.
+            </li>
+            <li>
+              Khmer language and literature: This includes reading, writing,
+              speaking, and listening skills in Khmer. Kids will also learn
+              about Khmer grammar and vocabulary.
+            </li>
+            <li>
+              Mathematics: This includes basic math skills, such as counting,
+              addition, subtraction, multiplication, and division. Kids will
+              also learn about geometry and measurement.
+            </li>
+          </ul>
+        </div>
+      </div>
+      <Footer />
+    </>
   );
 };
 
