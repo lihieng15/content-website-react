@@ -1,8 +1,11 @@
 import React from "react";
+import Banner from "../components/Banner";
+import Footer from "../components/Footer";
 
 const Programs = () => {
   return (
     <>
+      <Banner />
       <h2 className="flex justify-center items-center rounded-2xl font-bold text-4xl bg-green-400 h-20 ">
         Our Activities
       </h2>
@@ -35,6 +38,7 @@ const Programs = () => {
         labore minima nisi similique alias harum laborum veritatis aliquam
         itaque non.
       </p>
+      <Footer />
     </>
   );
 };

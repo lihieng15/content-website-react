@@ -6,7 +6,7 @@ const Admissions = () => {
   return (
     <>
       <Banner />
-      <h2 className="flex justify-center items-center font-bold text-6xl bg bg-yellow-400 h-20 ">
+      <h2 className="flex justify-center items-center font-bold text-6xl bg bg-light-green-500 h-20 ">
         Admissions
       </h2>
       <div className="w-auto ml-32 mr-32 h-auto">

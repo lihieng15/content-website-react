@@ -1,8 +1,11 @@
 import React from "react";
+import Banner from "../components/Banner";
+import Footer from "../components/Footer";
 
 const News = () => {
   return (
     <>
+      <Banner />
       <h2 className="flex justify-center items-center rounded-2xl font-bold text-4xl bg-green-400 h-20 ">
         News
       </h2>
@@ -19,6 +22,7 @@ const News = () => {
         perferendis natus iure iusto, nemo molestiae! Ea, consectetur?
         Repellendus dolorem quia labore sapiente vel? Voluptate, doloremque?
       </p>
+      <Footer />
     </>
   );
 };

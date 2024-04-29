@@ -1,6 +1,5 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import { Button } from "@material-tailwind/react";
 //reacticons
 import {
   FaBars,
@@ -19,10 +18,9 @@ const Navbar = () => {
     { path: "/news", link: "News" },
     { path: "/resource", link: "Resource" },
   ];
-
   return (
-    <header className="bg-gradient-to-r from-light-green-600 to-yellow-500 text-white fixed top-35 left-0 right-0">
-      <nav className="px-4 py-4 max-w-7xl mx-auto  flex justify-center items-center">
+    <header className="bg-light-green-600 text-white fixed top-35 left-0 right-0 shadow-lg z-40">
+      <nav className="px-2 py-4 max-w-7xl mx-auto  flex justify-center items-center">
         <div>
           <Logo />
         </div>
@@ -30,7 +28,10 @@ const Navbar = () => {
           {/*navitems for lg device */}
           <ul className="md:flex gap-12 text-lg hidden">
             {navItems.map(({ path, link }) => (
-              <li className="text-green-500" key={path}>
+              <li
+                className="text-white text-xl font-bold tracking-widest font-khmer"
+                key={path}
+              >
                 <NavLink
                   className={({ isActive, isPending }) =>
                     isActive ? "active" : isPending ? "pending" : ""
@@ -43,9 +44,9 @@ const Navbar = () => {
             ))}
           </ul>
         </div>
-        <button className="bg bg-yellow-500 text-black ml-10 mr-5 px-6 py-2 rounded hover:bg-white  hover:text-green-500 duration-200 ease-in ">
+        {/* <button className="bg bg-yellow-500 text-black ml-10 mr-5 px-6 py-2 rounded hover:bg-white  hover:text-green-500 duration-200 ease-in ">
           Login
-        </button>
+        </button> */}
 
         {/* <Button>Button</Button>;menu icons
         {/*<div className="text-white lg:flex gap-4 items-center hidden">
