@@ -9,7 +9,7 @@ const CardDescription = () => {
             <h1 className="text-center  font-bold text-xl mb-5">
               I love Southwest School
             </h1>
-            <p className="font-sans text-md mb-3">Because Sot sach</p>
+            <p className="font-sans text-md mb-3">Because Ilike this School</p>
           </div>
         </div>
         <div className="flex-col items-center justify-center">

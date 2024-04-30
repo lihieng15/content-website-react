@@ -1,12 +1,13 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { Carousel } from "@material-tailwind/react";
+import CardNews from "./NewsEvent/CardNews";
 const NewsEvent = () => {
   return (
     <div className="justify-center items-center flex">
-      <Carousel className="bg-blue-gray-700 w-[800px] items-center">
+      <Carousel className=" w-[800px] items-center ">
         {/* list of card 9 */}
-        <div>
+        {/* <div>
           <div className="w-64 h-96">
             <div className="p-5 mt-5  shadow-lg rounded-xl cursor-pointer ">
               <div className="flex justify-center items-center">
@@ -80,7 +81,10 @@ const NewsEvent = () => {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
+        <CardNews />
+        <CardNews />
+        <CardNews />
       </Carousel>
     </div>
   );
